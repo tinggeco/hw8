@@ -1,0 +1,110 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+# API keys and sensitive data
+.env
+*.key
+*.pem
+config/secrets/
+
+# Large geospatial data files
+*.img
+*.hdf
+*.nc
+*.geotiff
+*.jp2
+data/large_*
+data/temp_*
+data/cache/
+
+# Downloaded satellite imagery
+downloads/
+raw_data/
+satellite_data/
+sentinel_*
+landsat_*
+
+
+# Logs
+*.log
+logs/
+debug.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# R and RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+
+# Keep important files but ignore their outputs
+!README.md
+!requirements.txt
+!environment.yml
+!data/README.md
+!output/README.md
